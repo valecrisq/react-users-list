@@ -1,0 +1,48 @@
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 1.5rem;
+  margin: 2rem 1rem;
+}
+
+.user-info-list section {
+  margin: 3rem 0.5rem 1rem 0.5rem;
+}
+
+.user-info-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.85rem;
+  margin-top: 0.6rem;
+  justify-content: center;
+  @media (min-width: 767px) {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.3rem;
+  }
+}
+
+.user-details button {
+  cursor: pointer;
+  border-radius: 0.4rem;
+  background-color: white;
+  font-size: 0.7rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  align-self: flex-end;
+  @media (min-width: 1024px) {
+    margin: 0rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+}
